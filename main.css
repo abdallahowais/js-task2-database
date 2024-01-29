@@ -26,9 +26,7 @@ background-color: white;
 text-align: center;
 font-size: 30px;
 padding: 10px;
-}
-.product h2::first-letter{
-    
+
 }
 .prise-brand{
     display: flex;
@@ -38,5 +36,26 @@ padding: 10px;
 }
 
 
-
+.product a,.product-detail a{
+    align-items: center;
+    text-decoration:none;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    background-color: #eee;
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+}
+.product-detail{
+    font-size: 1.5em;  
+      display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 800px;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
     
